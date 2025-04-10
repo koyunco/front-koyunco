@@ -1,4 +1,4 @@
-import { PuzzlePieceIcon, ShieldCheckIcon, LockClosedIcon, ScaleIcon, DocumentCheckIcon } from '@heroicons/react/20/solid'
+import { PuzzlePieceIcon, ShieldCheckIcon, ScaleIcon, DocumentCheckIcon } from '@heroicons/react/20/solid'
 
 function ContentFeature() {
     return (
