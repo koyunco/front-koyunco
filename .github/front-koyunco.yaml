@@ -12,23 +12,28 @@ jobs:
   build_and_deploy_job:
     runs-on: ubuntu-latest
     steps:
+      # 1. Clonar el repositorio
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # 2. Configurar Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '23' # Usa la versión de Node.js compatible con tu proyecto
+          node-version: '23' # Usa una versión de Node.js compatible con tu proyecto
 
+      # 3. Instalar dependencias
       - name: Install dependencies
-        run: npm install
+        run: npm ci # Usa `npm ci` para instalaciones limpias basadas en package-lock.json
 
+      # 4. Construir la aplicación React
       - name: Build React app
         run: npm run build
 
+      # 5. Desplegar en Azure Static Web Apps
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ORANGE_WAVE_088554503 }}
           app_location: "/front-koyunco" # Ruta del proyecto React
           output_location: "/front-koyunco/dist" # Carpeta de salida de la compilación
