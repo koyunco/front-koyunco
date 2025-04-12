@@ -31,8 +31,16 @@ const AnimatedDotsHeader = () => {
     const context = canvas.getContext('2d');
     if (!context) return;
 
-    const dotCount = 120;
+    // Función para calcular el número de puntos según el ancho de la pantalla
+    const calculateDotCount = (width: number): number => {
+      if (width < 768) return 40; // Menos puntos para pantallas pequeñas
+      if (width < 1024) return 80; // Número moderado de puntos para pantallas medianas
+      return 120; // Número completo de puntos para pantallas grandes
+    };
+
+    let dotCount = calculateDotCount(width);
     const connectionDistance = 150; // Distancia a la que los puntos se conectan
+
 
     // Función para crear puntos
     const createDot = (cx: number, cy: number): Dot => {
