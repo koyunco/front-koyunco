@@ -16,7 +16,6 @@ function App() {
       <TopMenu></TopMenu>
       <AnimatedDotsHeader></AnimatedDotsHeader>
       <Tile></Tile>
-
       <ContentFeature></ContentFeature>
       <Banner></Banner>
       

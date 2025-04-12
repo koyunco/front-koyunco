@@ -39,7 +39,7 @@ export default function Newsletter() {
               </div>
               <dt className="mt-4 text-base font-semibold text-white">Weekly articles</dt>
               <dd className="mt-2 text-base/7 text-gray-400">
-                Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet.
+                Nouman laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet.
               </dd>
             </div>
             <div className="flex flex-col items-start">
