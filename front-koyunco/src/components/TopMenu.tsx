@@ -1,7 +1,7 @@
 'use client'
 
-
 import logo from '../assets/images/logo.png';
+
 import { useState } from 'react'
 import {
   Dialog,
@@ -125,8 +125,8 @@ function TopMenu() {
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img alt="Koyun Logo" src="/images/logo.png" className="h-8 w-auto" />
+              <span className="sr-only">Koyun</span>
+              <img alt="Koyun Logo" src={logo} className="h-8 w-auto" />
             </a>
             <button
               type="button"
