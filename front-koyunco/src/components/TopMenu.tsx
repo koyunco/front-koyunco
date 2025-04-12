@@ -43,7 +43,7 @@ function TopMenu() {
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">Koyun</span>
 
             <img alt="" src="https://i.ibb.co/Hw9fNzT/logo.png" className="h-16 w-auto"/>
           </a>
@@ -127,7 +127,7 @@ function TopMenu() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+                src="https://i.ibb.co/Hw9fNzT/logo.png"
                 className="h-8 w-auto"
               />
             </a>

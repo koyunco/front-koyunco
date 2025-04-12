@@ -18,10 +18,6 @@ function App() {
       <Tile></Tile>
       <ContentFeature></ContentFeature>
       <Banner></Banner>
-      
-      
-      
-      
       <LetsTalk></LetsTalk>
       <LogoCloud></LogoCloud>
       <Newsletter></Newsletter>

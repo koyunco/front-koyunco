@@ -1,7 +1,7 @@
 
 function LetsTalk() {
   return (
-    <div className="max-w-xl mx-auto mt-20 mb-25 flex flex-col items-center justify-center text-center md:mx-auto">
+    <div className="max-w-xl mx-auto mt-20 mb-25 flex flex-col items-center justify-center text-center md:mx-auto p-4">
       <h2 className="text-sm font-semibold text-indigo-600">Lets Talk!</h2>
 
       <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
