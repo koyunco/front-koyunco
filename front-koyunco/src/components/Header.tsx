@@ -33,7 +33,7 @@ const AnimatedDotsHeader = () => {
 
     // Función para calcular el número de puntos según el ancho de la pantalla
     const calculateDotCount = (width: number): number => {
-      if (width < 768) return 40; // Menos puntos para pantallas pequeñas
+      if (width < 768) return 50; // Menos puntos para pantallas pequeñas
       if (width < 1024) return 80; // Número moderado de puntos para pantallas medianas
       return 120; // Número completo de puntos para pantallas grandes
     };
