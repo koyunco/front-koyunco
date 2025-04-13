@@ -7,25 +7,28 @@ import ContentFeature from "./components/ContentFeature"
 import Footer from "./components/Footer"
 import LogoCloud from './components/LogoCloud'
 import LetsTalk from './components/Letstalk'
-
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/Home'
+import Product from './components/Product'
 
 
 function App() {
   return (
-    <div>
+    <>
+
       <TopMenu></TopMenu>
-      <AnimatedDotsHeader></AnimatedDotsHeader>
-      <Tile></Tile>
-      <ContentFeature></ContentFeature>
-      <Banner></Banner>
-      <LetsTalk></LetsTalk>
-      <LogoCloud></LogoCloud>
-      <Newsletter></Newsletter>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Product" element={<Product />} />
+      </Routes>
+
+
+
       <Footer></Footer>
 
+    </>
 
-
-    </div>
   )
 }
 export default App
