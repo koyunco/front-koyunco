@@ -46,7 +46,7 @@ function TopMenu() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Koyun</span>
-            <img alt="Koyun Logo" src={logo} className="h-16 w-auto" />
+            <img alt="Koyun Logo" src={logo} className="h-14 w-auto" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -66,10 +66,7 @@ function TopMenu() {
               <ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-gray-400" />
             </PopoverButton>
 
-            <PopoverPanel
-              transition
-              className="absolute top-full -left-8 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white ring-1 shadow-lg ring-gray-900/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
-            >
+            <PopoverPanel transition className="absolute top-full -left-8 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white ring-1 shadow-lg ring-gray-900/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in" >
               <div className="p-4">
                 {products.map((item) => (
                   <div
