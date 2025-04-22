@@ -16,7 +16,7 @@ const features = [
 
 ]
 
-function Message() {
+function HeroProduct() {
   return (
     <div className="overflow-hidden bg-white py-22 sm:py-30">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -70,7 +70,7 @@ function Message() {
   )
 }
 
-export default Message;
+export default HeroProduct;
 
 
 /*

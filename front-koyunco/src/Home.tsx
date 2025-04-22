@@ -1,10 +1,10 @@
-import AnimatedDotsHeader from './Header'
-import Banner from "./Banner"
-import Tile from "./Tile"
-import Newsletter from './Newsletter'
-import ContentFeature from "./ContentFeature"
-import LogoCloud from './LogoCloud'
-import LetsTalk from './Letstalk'
+import AnimatedDotsHeader from './components/HeroHome'
+import Banner from "./components/Banner"
+import Tile from "./components/Tile"
+import Newsletter from './components/Newsletter'
+import ContentFeature from "./components/ContentFeature"
+import LogoCloud from './components/LogoCloud'
+import LetsTalk from './components/Letstalk'
 
 
 const Home = () => {
