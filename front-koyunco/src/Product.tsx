@@ -5,20 +5,27 @@ import LogoCloud from "./components/LogoCloudProduct";
 import Tile from "./components/TileProduct";
 import Content from "./components/ContentProduct";
 import Price from "./components/Price";
+import Newsletter from './components/Newsletter'
+import AnimatedDotsHeader from './components/HeroHome'
+import LetsTalk from './components/Letstalk'
 
 const Product = () => {
     return (
-        <div>
-          {/* Add your content here */}
-            <HeroProduct></HeroProduct>
-            <ContentFeature></ContentFeature>
-            <Section1></Section1>
-            <LogoCloud></LogoCloud>
-            <Tile></Tile>
-            <Content></Content>
-            <Price></Price>
+      <div>
+        {/* Add your content here */}
+        <AnimatedDotsHeader></AnimatedDotsHeader>
+        <Tile></Tile>
+        <HeroProduct></HeroProduct>
+        <ContentFeature></ContentFeature>
+        <Section1></Section1>
+        <LogoCloud></LogoCloud>
+        <LetsTalk></LetsTalk>
+        <Content></Content>
 
-        </div>
+        <Price></Price>
+
+        <Newsletter></Newsletter>
+      </div>
       );
 };
 
